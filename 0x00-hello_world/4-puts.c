@@ -2,11 +2,8 @@
 
 int main(void)
 {
-int str[10];
 
-strcpy(str, '\"Programming is like building a multilingual puzzle');
-
-puts(str);
+puts('\"Programming is like building a multilingual puzzle');
 
 return (0);
 }
