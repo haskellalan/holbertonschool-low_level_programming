@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/**
+ *main - print alphabet
+ *Return: end function
+ */
+
+int main()
+{
+  char az = 'a';
+
+  for (az = 'a'; az <='z'; az++)
+    putchar(az);
+
+  return (0);
+}
