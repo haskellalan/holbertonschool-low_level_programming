@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main (void)
-{ 
+/**
+ *main - Print holberton
+ *
+ *Return: 0 to end algorithm
+ */
+
+int main(void)
+{
 	printf("Holberton\n");
 	return (0);
 }
