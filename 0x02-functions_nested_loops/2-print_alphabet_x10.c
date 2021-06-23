@@ -15,5 +15,5 @@ for (_x10 = 0; _x10 <= 10; _x10++)
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		_putchar(alphabet);
 }
-_putchar(\n);
+_putchar('\n');
 }
