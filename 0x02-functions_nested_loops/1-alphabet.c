@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <holberton.h>
+#include "holberton.h"
 /**
  *main - function to print alphabet
  *Return: end function
