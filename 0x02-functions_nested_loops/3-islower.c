@@ -1,6 +1,8 @@
 #include "holberton.h"
 /**
- *int _islower - start function
+ *_islower - start function
+ *@c: value
+ *Return: end function according result
  */
 
 int _islower(int c)
@@ -9,9 +11,8 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	
 	else
 	{
-		return(0);
+		return (0);
 }
 }
