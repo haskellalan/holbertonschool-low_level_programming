@@ -8,13 +8,20 @@
 
 int print_sign(int n)
 {
-	if (n >= 1 && n <= 9)
+	if (n == 0)
 	{
-		return (1);
+		_putchar('0')
+		return (0);
 	}
 
-	else (n >= -1 && n <= -9)
+	else if (n > 0)
 	{
+		_putchar('1')
+		return (1);
+	}
+	else 
+	{
+		_putchar('-1');
 		return (-1);
 	}
 }
